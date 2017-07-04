@@ -28,6 +28,7 @@ return [
     |
     */
 
-    'compiled' => realpath(storage_path('framework/views')),
-
+    'compiled'    => realpath(storage_path().'/framework/views'),
+    'pc_path'     => realpath(base_path('resources/views/PC')),
+    'mobile_path' => realpath(base_path('resources/views/SP')),
 ];
